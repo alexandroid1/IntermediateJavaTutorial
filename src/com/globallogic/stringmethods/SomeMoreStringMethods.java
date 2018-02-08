@@ -1,4 +1,4 @@
-package com.globallogic;
+package com.globallogic.stringmethods;
 
 public class SomeMoreStringMethods {
 

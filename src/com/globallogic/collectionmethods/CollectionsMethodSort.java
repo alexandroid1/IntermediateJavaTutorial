@@ -1,4 +1,4 @@
-package com.globallogic;
+package com.globallogic.collectionmethods;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -14,6 +14,5 @@ public class CollectionsMethodSort {
 
         Collections.sort(l1, Collections.reverseOrder());
         System.out.printf("%s\n", l1);
-
     }
 }

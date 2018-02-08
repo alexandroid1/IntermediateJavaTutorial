@@ -1,4 +1,4 @@
-package com.globallogic;
+package com.globallogic.recursion;
 
 public class Recursion {
     public static void main(String[] args) {

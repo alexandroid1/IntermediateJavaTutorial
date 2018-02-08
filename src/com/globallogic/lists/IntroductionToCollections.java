@@ -1,4 +1,4 @@
-package com.globallogic;
+package com.globallogic.lists;
 
 import java.util.ArrayList;
 import java.util.List;
