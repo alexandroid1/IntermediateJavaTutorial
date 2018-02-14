@@ -1,4 +1,4 @@
-package com.globallogic.stacks;
+package com.globallogic.StackQueueHashset;
 
 import java.util.Stack;
 
