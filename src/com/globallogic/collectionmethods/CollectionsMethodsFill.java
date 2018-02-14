@@ -1,11 +1,10 @@
 package com.globallogic.collectionmethods;
 
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
-public class MethodsReverseAndCopy {
+public class CollectionsMethodsFill {
     public static void main(String[] args) {
 
         //create an array and convert to list
@@ -28,6 +27,10 @@ public class MethodsReverseAndCopy {
         System.out.println("Copy of list : ");
         output(listCopy);
 
+        // fill collection with crap
+        Collections.fill(l, 'X');
+        System.out.println("After filling the list : ");
+        output(l);
     }
 
     // output method
