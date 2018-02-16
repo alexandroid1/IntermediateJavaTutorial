@@ -9,7 +9,7 @@ public class GenericMethods {
         printMe(cray);
     }
 
-    public static void printMe(Integer[] i){
+/*    public static void printMe(Integer[] i){
         for (Integer x : i)
             System.out.printf("%s ", x);
         System.out.println();
@@ -19,6 +19,14 @@ public class GenericMethods {
         for (Character x : i)
             System.out.printf("%s ", x);
         System.out.println();
+    }*/
+
+    // generic method
+    public static <T> void printMe(T[] x){
+        for (T b : x)
+            System.out.printf("%s ", b);
+        System.out.println();
     }
+
 
 }
