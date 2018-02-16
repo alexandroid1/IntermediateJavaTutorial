@@ -5,6 +5,8 @@ public class GenericReturnTypes {
 
         System.out.println(max (23,42,1));
 
+        System.out.println(max ("apples","tots","chicken"));
+
     }
 
     public static <T extends Comparable<T>> T max(T a, T b, T c){
